@@ -1,7 +1,7 @@
 $SMTPServer = 'smtp.qq.com'
 $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 $SMTPInfo.EnableSsl = $true
-$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('你的邮箱', '');
+$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('你的邮箱', '邮箱密钥');
 $ReportEmail = New-Object System.Net.Mail.MailMessage
 $ReportEmail.From = '你的邮箱'
 $ReportEmail.To.Add('你的邮箱')
