@@ -1,7 +1,7 @@
 # GetPass
-将获取到的所有密码写到文件发送到邮箱中,把badusb_GetPass.ino烧录到badusb设备。
+插入badusb设备自动将获取到的所有密码写到文件然后发送到邮箱中,把badusb_GetPass.ino烧录到badusb设备。
 
-
+运行实例
 ![image](https://github.com/kissgeek/GetPass/blob/master/image/GetPass.png)
 
 
