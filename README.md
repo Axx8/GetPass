@@ -6,10 +6,6 @@ GetPass.exe
 
 PassUP.ps1
 上传文件到邮箱
-
-运行实例
-![image](https://github.com/kissgeek/GetPass/blob/master/image/GetPass.png)
-
 ## 可使用最小化隐藏cmd窗口
 ```
   Keyboard.println("CMD /t:01 /k @ECHO OFF && MODE CON:cols=15 lines=1");   //使用最小化隐藏cmd窗口
@@ -20,3 +16,5 @@ PassUP.ps1
 ```
 
 
+运行实例
+![image](https://github.com/kissgeek/GetPass/blob/master/image/GetPass.png)
